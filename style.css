@@ -16,6 +16,10 @@ body{
 	--webkit-transition: background 0.6s;
 }
 
+.clearFloat{
+	clear: both;
+}
+
 #container{
 	margin: 20px auto;
 	max-width: 600px;
@@ -45,7 +49,7 @@ h1{
 }
 
 #colorDisplay{
-	font-size: 200%;
+	font-size: 120%;
 }
 
 button{
@@ -71,4 +75,18 @@ button:hover{
 #message{
 	display: inline-block;
 	width: 20%;
+}
+
+footer{
+	text-align: center;
+	color: white;
+}
+
+a:hover{
+	background-color: steelblue;
+	color: white;
+}
+
+footer p{
+	margin: 0%;
 }
